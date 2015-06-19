@@ -26,8 +26,8 @@ public class SplashPage extends Activity {
             getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                     WindowManager.LayoutParams.FLAG_FULLSCREEN);
         }
-        setContentView(R.layout.activity_splash_page);
 
+        setContentView(R.layout.activity_splash_page);
         IntentLauncher launcher = new IntentLauncher();
         launcher.start();
 
